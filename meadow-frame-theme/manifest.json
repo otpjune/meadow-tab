@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Meadow Frame Theme",
+  "version": "1.0.0",
+  "description": "Dark green Chrome frame, tabs and toolbar to match Meadow Tab.",
+  "theme": {
+    "colors": {
+      "frame": [20, 34, 23],
+      "frame_inactive": [26, 40, 29],
+      "toolbar": [38, 60, 42],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [196, 218, 199],
+      "bookmark_text": [255, 255, 255],
+      "omnibox_background": [26, 44, 30],
+      "omnibox_text": [255, 255, 255],
+      "button_background": [38, 60, 42]
+    }
+  }
+}
