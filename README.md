@@ -14,29 +14,3 @@ click Customize Chrome and turn off Show footer on New tab page.
 Keep the unzipped folders where they are. If you delete or move them, the extension stops working.
 > Built for Chrome. Other Chromium browsers such as Edge and Brave should work too (use their own `edge://extensions` or `brave://extensions` page).
 Uninstall: `chrome://extensions` → Remove on the Meadow Tab card. To remove the theme: Chrome Settings → Appearance → Reset to default.
----
-Features
-Clock: 12-hour real-time clock with the date.
-Search: frosted-glass bar with live Google suggestions and your recent searches. Type a website address and it opens directly.
-Focus timer: default 25 minutes, adjustable. Plays a sound and shows a notification when time is up, even if you're on another tab or in another app.
-Shortcuts: macOS-style app icons, coloured automatically from each site's own icon. Add, edit, remove and rearrange them. The glass panel grows as you add more.
-Edit layout: move and resize the clock, timer, search bar and shortcuts anywhere on screen, with Canva-style alignment guides that snap to the centre and to each other.
-Lightweight: no libraries or frameworks, nothing running in the background except while a timer is active.
----
-Privacy
-Everything you set up (shortcuts, recent searches, layout, timer, background) is stored only in your browser. Nothing is sent to any server of ours, and there is no tracking or analytics.
-Search suggestions: while you type in the search bar, the text is sent to Google's suggestion service so it can suggest completions (the same way Chrome's own address bar works).
-Meadow Tab never reads, stores or asks for passwords. Shortcuts are just links.
-Permissions used: `storage` (save your settings), `alarms` + `notifications` + `offscreen` (timer sound and notification), `favicon` (show site icons), `search` (use your default search engine).
----
-Troubleshooting
-Problem	What to do
-A bar with Customize Chrome shows at the bottom	That's Chrome's footer. See step 7 of the installation to hide it.
-Chrome says "Disable developer mode extensions" on startup	Normal for manually installed extensions. Dismiss the message (don't click Disable).
-An icon shows a globe or blank picture	Chrome only has icons for sites it has seen. Visit the site once, then reload the new tab.
-No timer sound	Check your computer isn't muted. On Windows, Focus Assist / Do Not Disturb may hide the notification, but the sound should still play.
-Search suggestions don't appear	Check your internet connection.
-Layout got messy	⋯ → Edit layout → Reset layout.
----
-License
-MIT. You're free to use, copy, modify and share Meadow Tab, as long as the copyright notice and licence are kept. The built-in wallpapers are shared under the same terms.
